@@ -1,4 +1,5 @@
 let display = document.getElementById("display");
+let loaderEl = document.getElementById("loader");
 
 function cal(element_id){
     let button = element_id;
@@ -65,4 +66,11 @@ function answer(){
     else{
         display.value = result;
     }
+}
+
+function loader(){
+    setTimeout(() => {
+        loaderEl.style.transform = "scale(2)";
+        loaderEl.style.opacity = "0";     
+    }, 2000);
 }
