@@ -63,6 +63,10 @@ input{
     border-radius: 10px;
 }
 
+input:focus{
+    outline: none;
+}
+
 #AC{
     grid-column: span 2;
 }

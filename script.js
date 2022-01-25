@@ -63,7 +63,6 @@ function answer(){
         return
     }
     else{
-        display.placeholder = result;
-        display.value = "";
+        display.value = result;
     }
 }
