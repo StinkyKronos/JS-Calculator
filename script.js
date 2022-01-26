@@ -72,5 +72,6 @@ function loader(){
     setTimeout(() => {
         loaderEl.style.transform = "scale(2)";
         loaderEl.style.opacity = "0";     
+        loaderEl.style.display = "none";
     }, 2000);
 }
