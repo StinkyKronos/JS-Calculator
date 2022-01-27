@@ -40,6 +40,14 @@ body{
     border-radius: 10px;
 }
 
+@media (max-width: 600px) {
+    .grid-container{
+        grid-template-columns: repeat(4, 80px);
+        grid-template-rows: repeat(6, 80px);
+    }
+}
+
+
 button{
     width: calc(100% - 3px);
     height: calc(100% - 3px);
